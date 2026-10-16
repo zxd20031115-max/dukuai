@@ -1,7 +1,0 @@
-{
-  "name": "market-lab", "version": "1.1.0", "private": true,
-  "description": "本地多资产历史回放与杠杆模拟交易终端",
-  "type": "module", "engines": { "node": ">=24.0.0" },
-  "scripts": { "start": "node server.mjs", "data": "node scripts/download-history.mjs", "test": "node --test tests/*.test.mjs", "check": "node --check server.mjs && node --check public/app.js && node --test tests/*.test.mjs" },
-  "license": "MIT"
-}
